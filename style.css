@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+
+}
+
+.mainheading {
+    width: 400px;
+    height: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+
+#banner {
+    background-image: url(images.png);
+    height: 250px;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.heading p {
+    margin-top: 15px;
+    color: #27272799;
+}
+
+.mainbtn1 {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    transition: 3s all ease;
+}
+
+.mainbtn1:hover {
+    background-color:yellow ;
+    transition: 3s all ease;
+}
+.bnrimg {
+    height: 500px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+    padding-left: 100px;
+    padding-right: 200px;
+
+}
+
+#details {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#service {
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.srvc1 {
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;}
+
+.p1 {
+    width: 200px;
+    height: 250px;
+    padding-top: 15px;
+    background-color: lightpink;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+
+
+}
+
+.srvc1 p {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#speciality {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    background-color: #2727270D;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.special1 img {
+    width: 50px;
+}
+
+.special1 {
+    margin: 30px;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+}
+
+#signup {
+    display: flex;
+    height: 400px;
+    margin-top: 25px;
+    background-color: #E554730D;
+    justify-content: center;
+    font-weight: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.sign-heading h1 {
+    padding-top: 40px;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.sign-heading p {
+    font-size: 15px;
+    font-weight: 200px;
+    text-align: center;
+}
+
+.mainheader {
+    margin-top: 100px;
+    padding-left: 50px;
+    justify-content: center;
+}
+
+.snimg {
+    width: 200px;
+    margin-right: 100px;
+    height: auto;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.sign-heading span {
+    color: red;
+    font-weight: 100px;
+}
+
+.mainbtn {
+    background-color: #E55473;
+    border: none;
+    border-radius: 12px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    transition: 3s all ease;
+
+}
+.mainbtn:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+/*--------- */
+instragram
+
+/*------- */
+#instragram {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    height: 100px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.instapic {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.img1 {
+    width: 250px;
+    cursor: pointer;
+}
+
+.img2 {
+    width: 250px;
+    cursor: pointer;
+}
+
+.img3 {
+    width: 250px;
+    cursor: pointer;
+    ;
+}
+
+.img4 {
+    width: 250px;
+    cursor: pointer;
+}
+
+/* ---------service------ */
+#workheading {
+    text-align: center;
+    padding: 20px 2px;
+}
+
+#works {
+    width: auto;
+    height: 400px;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.work10 {
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 2s all ease;
+    display: block;
+    color: tomato;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+}
+
+#works h3 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.work10:hover {
+    transform: scale(1.1);
+}
+
+.work2 {
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 2s all ease;
+    display: block;
+    color: tomato;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+}
+
+.work2:hover {
+    transform: scale(1.1);
+}
+
+.work3 {
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 2s all ease;
+    display: block;
+    color: tomato;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+}
+
+#works h3 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.work3:hover {
+    transform: scale(1.1);
+}
+
+/* images size */
+.work1 {
+    width: 300px;
+    height: 300px;
+}
+
+/* --------------------------subscribe section----------- */
+
+#subscribe {
+    background-image: url(Rectangle\ 9.png);
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200PX;
+    margin-right: 200px;
+
+}
+
+.head h2 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.head p {
+    padding-top: 15px;
+    font-size: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
+.head input {
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    transition: 2s all ease;
+}
+.head input:hover{
+    transform: scale(1.1);
+}
+
+.btn2 button {
+    padding: 10px 10px;
+    margin-left: 10px;
+    background-color: red;
+    color: rgb(9, 9, 9);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 3s all ease;
+}
+
+.btn2 button:hover {
+    background-color:orange;
+    transform: scale(1.1);
+    transition: 1s all ease;
+}
+
+#footer {
+    height: 300px;
+    width: auto;
+    margin-top: 50px;
+    background-color: #121010;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.address p {
+    padding-top: 20px;
+    color: gray;
+
+}
+
+.address .pera {
+    font-size: 10px;
+    padding-top: 20px;
+
+}
+
+.address span {
+    color: #E55473;
+    font-weight: 100px;
+}
